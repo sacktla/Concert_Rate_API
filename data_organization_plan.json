@@ -1,0 +1,56 @@
+{
+  "band_name":"String",
+  "comment":"String",
+  "venue_name":"String",
+  "concert_date":"Date",
+  "general_rate":"Float",
+  "crowd_rate":"Float",
+  "scene_rate":"Float",
+  "sound_rate":"Float",
+  "music_quality_rate":"Float",
+  "festival":"Boolean",
+  "festival_name":"String"
+}
+
+{
+  "festival_name":"String",
+  "location":"Geolocation",
+  "general_rate":"Float",
+  "crowd_rate":"Float",
+  "scene_rate":"Float",
+  "sound_rate":"Float"
+}
+
+{
+  "venue_name":"String",
+  "location":"Geolocation",
+  "general_rate":"Float",
+  "sound_rate":"Float",
+  "clean_rate":"Float"
+}
+
+{
+  "band_name":"String",
+  "members":[
+    {
+      "name":"String",
+      "instrument":"String",
+      "other_bands":[
+        "band_name",
+        "band_name"
+      ],
+      "active":"Boolean"
+    },
+    {
+      "name":"String",
+      "instrument":"String",
+      "other_bands":[
+        "band_name",
+        "band_name"
+      ],
+      "active":"Boolean"
+    }
+  ],
+  "established_date":"Date(Year)",
+  "website":"URL"
+}
